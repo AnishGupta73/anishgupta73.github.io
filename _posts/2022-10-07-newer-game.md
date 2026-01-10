@@ -6,7 +6,7 @@ date:   2022-10-07 15:39:40
 preview: /assets/VRch/MainMenuSquare300.png
 ---
 
-![Lab 4](/assets/VRch/Lab4.png)
+![Lab 4](/assets/VRch/MainMenu.png)
 
 VRchaeology is a Virtual Reality game, developed in Unreal Engine 5, which brings archaeological field techniques into the classroom. Developed under The Stu/dio affiliated with the University of Illinois at Urbana-Champaign, it serves as an exalpmed of how VR van transform the education of field sciences, making hands-on learning accessible to everyone.
 
@@ -20,4 +20,4 @@ Contributions:
 * Tool Access Manager System (TAM):
     * The Technical Design Doc I made:
 
-<object data="/assets/VRch/NewToolAccessSystemTDD.pdf" width="100%" height="300"></object>
+<object data="/assets/VRch/NewToolAccessSystemTDD.pdf" width="100%" height="500"></object>
