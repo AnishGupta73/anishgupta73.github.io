@@ -2,7 +2,7 @@
 layout: post
 title:  "Resilient Community"
 summary: "Gameplay & QA Programmer"
-date:   2025-11
+date:   2022-10-09 15:39:40
 preview: /assets/postpreview.png
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "VRChaeology"
 summary: "Tools and Gameplay Programmer"
-date:   2024-06
+date:   2022-10-07 15:39:40
 preview: /assets/VRch/MainMenuSquare300.png
 ---
 
