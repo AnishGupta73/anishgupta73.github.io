@@ -15,4 +15,6 @@ My main contributions are but not limited to:
     * Building and Integrating archaeological tools for the Level: Tape Measurer, Stake, Hammer, String
     * Implementing Level Scripting using an in-house Quest and Task system
 * Tool Access Manager System (TAM):
-    This System was designed so that every level could access its own set of tools in an intuitive and easy manner. It works by first the user pressing the A button, seeing an array of tools pop out arranged in a fan shape. 
+    * The Technical Design Doc I made:
+
+<object data="/assets/VRch/NewToolAccessSystemTDD.pdf" width="100%" height="600"></object>
