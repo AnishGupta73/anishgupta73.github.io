@@ -20,4 +20,4 @@ Contributions:
 * Tool Access Manager System (TAM):
     * The Technical Design Doc I made:
 
-<object data="/assets/VRch/NewToolAccessSystemTDD.pdf" width="100%" height="100%"></object>
+<object data="/assets/VRch/NewToolAccessSystemTDD.pdf" width="100%" height="300"></object>
