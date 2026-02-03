@@ -6,14 +6,8 @@ permalink: /about/
 
 ![Portrait](/assets/Portrait.png)
 
-Hello! I'm Game Developer and I love making and playing games!
+Hello! I'm Anish, a Computer Science Masters graduate, with a Mathemtatics Bachelors, pursuing a career as a software engineer within the game industy. I'm interested in developing gameplay features and the problems I'm interested in solving are "how can we turn a high-level design into low-level code that is both scalable and maintainable?", and "how can we craft the best experience for the players?". I have 2+ years of experience in UE5/Godot 4, specializing in designing technical design documents; building gameplay systems in VR; and creating data-collection pipelines for a smooth QA process.
 
-I've worked on shipped titles like VRchaeology and Resilient Community that both come from The Stu/dio at University of Illinois at Urbana-Champaign. I've also worked on small games as class projects and personal projects.
-I've collaborated with other programmers and multi-disciplinary teams like design, art, and management for these projects to come to life.
-
-My specialization is in Unreal Engine 5 and Godot 4 with experience designing technical design documents; building gameplay systems in VR, 3D, and 2D; and creating data-collection pipelines for a smooth QA process.
-Throughout these projects I primarily implemented gameplay features, refactored the code base, optimized builds, and improved user experience. 
-
-Some of my favorite series are JRPGs like Xenoblade, Octopath, Trails, Atelier, etc. and multiplayer Games like Smash Bros, Overcooked, Towerfall, etc.
+Some of my favorite series are JRPGs like Xenoblade, Octopath, Trails, Atelier, and multiplayer Games like Smash Bros, Overcooked, and Towerfall.
 
 If you're interested in what I can offer, please contact me!
