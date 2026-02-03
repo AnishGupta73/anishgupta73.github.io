@@ -30,9 +30,16 @@ Unreal Engine 5 for PCVR Platforms
 **Contributions**
 
 * **Lab 4 Tools**
+
     * Tape Measurer Tool
+
 ![TM_use](/assets/VRch/TM_use.gif)
-        * Created the Tape Measurer tool and Tape Measurement
+
+![TM_use](/assets/VRch/TM_adjust.gif)
+
+        * Performant Tool that allows Players to measure distance and level with respect to the ground. 
+        * Developed adjustable endpoints to mimic on-the-fly adjustments to measurements in the highly precise archaeological process of setting a grid
+
     * Stake Tool
     * Hammer Tool
     * String Tool

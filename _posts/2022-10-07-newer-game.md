@@ -3,7 +3,7 @@ layout: post
 title:  "Resilient Community"
 summary: "Gameplay and QA Programmer"
 date:   2022-10-07 15:39:40
-preview: /assets/VRch/postpreview.png
+preview: /assets/postpreview.png
 ---
 
 
