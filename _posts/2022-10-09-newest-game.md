@@ -73,14 +73,19 @@ Unreal Engine 5 for PC VR Platforms
 **Tool Access Manager**
 
 * Inspired by Steam's Tool System, implemented a universal Tool Equipping System in which each level can assign the tools it uses.
-* Developed the fan-shaped arrangement of tools using 3D Vector math, which dynamically changes, depending on the number of tools assigned.
+* Developed the fan-shaped arrangement of tools using 3D Vector math, which dynamically updates depending on the number of tools assigned.
 
+<img src="/assets/VRch/TAM_equip_tutorial.gif" style="width: 100%; height: auto;">
 
+<img src="/assets/VRch/TAM_equip.gif" style="width: 100%; height: auto;">
 
-![TAM_TDD](/assets/VRch/NewToolAccessSystemTDD.png)
-![TAM_diagram](/assets/VRch/TAM_diagram.png)
+<img src="/assets/VRch/TAM_diagram.png" style="width: 50%; height: auto;">
 
-**Set grid (Level Scripting)**
-* Scripted the 
+<img src="/assets/VRch/NewToolAccessSystemTDD.png" style="width: 100%; height: auto;">
 
-**Set Grid Mini Tutorial (Level Scripting)**
+**Level Scripting: Set Grid & Set Grid Mini Tutorial**
+
+* Programmed Level Scripting Tasks using State Machine logic and event dispatchers to control the flow of level Design
+* Designed modular states for cleaner tracking and debugging of level flow
+
+<img src="/assets/VRch/Lab4LevelScripting_cropped.png" style="width: 100%; height: auto;">
