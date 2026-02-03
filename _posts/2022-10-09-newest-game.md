@@ -1,15 +1,57 @@
 ---
 layout: post
-title:  "Resilient Community"
-summary: "Gameplay & QA Programmer"
+title:  "VRChaeology"
+summary: "Tools and Gameplay Programmer"
 date:   2022-10-09 15:39:40
-preview: /assets/postpreview.png
+preview: /assets/VRch/MainMenuSquare300.png
 ---
 
-![VRch Banner](/assets/fullsize.png)
+![VRCH_Banner](/assets/VRch/vrch_banner.png)
 
-Here's some impressive stuff I did:
+**Overview** 
+VRchaeology revolutionizes the study of archaeology by bringing archaeological field techniques into the classroom through Virtual Reality (VR). This innovative approach allows students to delve into the world of archaeology and unearth the past right from their desks. It serves as a pioneering example of how VR can transform the education of field sciences, making hands-on learning accessible to everyone.
 
-* Added ChatGPT for NPC dialogues
-* Won game of the year from 200 publications
-* Was named *Time* person of the year (as a video game)
+The project is developed under The Stu/dio, a student led work-for-hire game development studio affiliated with the University of Illinois at Urbana-Champaign. The project is sponsored by Dr Laura Shackelford.
+
+**Platform**
+Unreal Engine 5 for PCVR Platforms
+
+**Team Structure**
+13 Members:
+* 1 Project Manager
+* 4 Programmers
+* 1 Designer
+* 5 Artists
+* 1 Sound Design
+* 1 Music Composer
+
+---
+
+**Contributions**
+
+* **Lab 4 Tools**
+    * Tape Measurer Tool
+![TM_use](/assets/VRch/TM_use.gif)
+        * Created the Tape Measurer tool and Tape Measurement
+    * Stake Tool
+    * Hammer Tool
+    * String Tool
+
+* **Tool Access Manager**
+
+![TAM_TDD](/assets/VRch/NewToolAccessSystemTDD.png)
+
+* **Set grid (Level Scripting)**
+    * Scripted the 
+
+* **Set Grid Mini Tutorial (Level Scripting)**
+
+
+
+* Set Grid and Set Grid Mini Tutorial Levels. This includes:
+    * Building and Integrating archaeological tools for the Level: Tape Measurer, Stake, Hammer, String
+    * Implementing Level Scripting using an in-house Quest and Task system
+* Tool Access Manager System (TAM):
+    * The Technical Design Doc I made:
+
+
