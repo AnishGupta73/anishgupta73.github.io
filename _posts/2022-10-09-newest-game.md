@@ -8,7 +8,8 @@ preview: /assets/VRch/MainMenuSquare300.png
 
 ![VRCH_Banner](/assets/VRch/vrch_banner.png)
 
-**Overview** 
+**Overview**
+
 VRchaeology revolutionizes the study of archaeology by bringing archaeological field techniques into the classroom through Virtual Reality (VR). This innovative approach allows students to delve into the world of archaeology and unearth the past right from their desks. It serves as a pioneering example of how VR can transform the education of field sciences, making hands-on learning accessible to everyone.
 
 The project was developed under The Stu/dio, a student led work-for-hire game development studio affiliated with the University of Illinois at Urbana-Champaign. The project is sponsored and owned by Dr. Laura Shackelford.
@@ -31,7 +32,7 @@ Unreal Engine 5 for PC VR Platforms
 
 **Contributions**
 
-**Lab 4 Tools**
+**Archaeology Tools (Gameplay features)**
 
 * Tape Measurer System
     * Performant Tool for measuring distance and ground level to perform tasks such as setting a 1m by 1m grid
@@ -51,25 +52,35 @@ Unreal Engine 5 for PC VR Platforms
     * Tool for hammering stakes into the ground.
     * Implemented collision with a cooldown system to create a more realistic experience of hammering multiple strikes to fix a stake.
 
+<img src="/assets/VRch/Hammer_hammer.gif" style="width: 100%; height: auto;">
+
 * String Tool
     * Tool for tying stakes together, visibly creating the perimeter for the grid.
     * Implemented instancing and UE5's cable components to seamlessly generate string line and attachment points on Stakes.
 
+<img src="/assets/VRch/String_string1.gif" style="width: 100%; height: auto;">
+
+<img src="/assets/VRch/String_string2.gif" style="width: 100%; height: auto;">
+
+* Flag Tool
+    * Tool for placing flags on the floor, marking artifact locations.
+    * Implements ray casting for placement, and collisions for deletion of flags.
+
+<img src="/assets/VRch/Flag_place_delete.gif" style="width: 100%; height: auto;">
+
+<img src="/assets/VRch/Flag_place_delete_many.gif" style="width: 100%; height: auto;">
+
 **Tool Access Manager**
 
+* Inspired by Steam's Tool System, implemented a universal Tool Equipping System in which each level can assign the tools it uses.
+* Developed the fan-shaped arrangement of tools using 3D Vector math, which dynamically changes, depending on the number of tools assigned.
+
+
+
 ![TAM_TDD](/assets/VRch/NewToolAccessSystemTDD.png)
+![TAM_diagram](/assets/VRch/TAM_diagram.png)
 
 **Set grid (Level Scripting)**
 * Scripted the 
 
 **Set Grid Mini Tutorial (Level Scripting)**
-
-
-
-* Set Grid and Set Grid Mini Tutorial Levels. This includes:
-    * Building and Integrating archaeological tools for the Level: Tape Measurer, Stake, Hammer, String
-    * Implementing Level Scripting using an in-house Quest and Task system
-* Tool Access Manager System (TAM):
-    * The Technical Design Doc I made:
-
-
