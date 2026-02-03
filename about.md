@@ -4,7 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 
-![Picture 1](/assets/fullsize.png)
+![Portrait](/assets/Portrait.png)
 
 Hello! I'm Game Developer and I love making and playing games!
 

@@ -79,9 +79,9 @@ Unreal Engine 5 for PC VR Platforms
 
 <img src="/assets/VRch/TAM_equip.gif" style="width: 100%; height: auto;">
 
-<img src="/assets/VRch/TAM_diagram.png" style="width: 50%; height: auto;">
-
 <img src="/assets/VRch/NewToolAccessSystemTDD.png" style="width: 100%; height: auto;">
+
+<img src="/assets/VRch/TAM_diagram.png" style="width: 50%; height: auto;">
 
 **Level Scripting: Set Grid & Set Grid Mini Tutorial**
 
