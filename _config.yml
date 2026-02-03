@@ -1,0 +1,13 @@
+# Site settings
+title: Anish Indra Gupta
+email: anishig@gmail.com
+description: > # keep this and put description below
+  Game Programmer specializing in gameplay and QA-driven iteration in Unreal Engine 5 VR and Godot.
+url: "https://anishgupta73.github.io" # the base hostname & protocol for your site
+linkedin_url: "https://www.linkedin.com/in/anish-gupta-57290123b"
+github_username: AnishGupta73
+footer_text: "This site uses <a href='https://github.com/gamingportfolio/urban-theme-portfolio'>urban-theme (portfolio)</a>."
+
+# Build settings
+markdown: kramdown
+permalink: pretty
