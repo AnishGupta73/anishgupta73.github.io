@@ -11,12 +11,14 @@ preview: /assets/VRch/MainMenuSquare300.png
 **Overview** 
 VRchaeology revolutionizes the study of archaeology by bringing archaeological field techniques into the classroom through Virtual Reality (VR). This innovative approach allows students to delve into the world of archaeology and unearth the past right from their desks. It serves as a pioneering example of how VR can transform the education of field sciences, making hands-on learning accessible to everyone.
 
-The project is developed under The Stu/dio, a student led work-for-hire game development studio affiliated with the University of Illinois at Urbana-Champaign. The project is sponsored by Dr Laura Shackelford.
+The project was developed under The Stu/dio, a student led work-for-hire game development studio affiliated with the University of Illinois at Urbana-Champaign. The project is sponsored and owned by Dr. Laura Shackelford.
 
 **Platform**
-Unreal Engine 5 for PCVR Platforms
+
+Unreal Engine 5 for PC VR Platforms
 
 **Team Structure**
+
 13 Members:
 * 1 Project Manager
 * 4 Programmers
@@ -29,32 +31,38 @@ Unreal Engine 5 for PCVR Platforms
 
 **Contributions**
 
-* **Lab 4 Tools**
+**Lab 4 Tools**
 
-    * Tape Measurer Tool
-        * Performant Tool that allows Players to measure distance and level with respect to the ground. 
-        * Developed adjustable endpoints to mimic on-the-fly adjustments to measurements in the highly precise archaeological process of setting a grid
+* Tape Measurer System
+    * Performant Tool for measuring distance and ground level to perform tasks such as setting a 1m by 1m grid
+    * Developed adjustable endpoints to intuitively mimic on-the-fly adjustments to measurements.
 
-<img src="/assets/VRch/TM_use.gif"
-     alt="TM_use"
-     style="width: 100%; height: auto; display: block; margin: 0 auto;">
+<img src="/assets/VRch/TM_use.gif" style="width: 100%; height: auto;">
 
-<img src="/assets/VRch/TM_adjust.gif"
-     alt="TM_use"
-     style="width: 100%; height: auto;">
+<img src="/assets/VRch/TM_adjust2.gif" style="width: 100%; height: auto;">
 
-    * Stake Tool
-    * Hammer Tool
-    * String Tool
+* Stake System
+    * Tool for placing stakes on the ground that mark the corners of a 1m by 1m grid.
+    * Implemented a ray cast system that, upon successful measurements, activate stake targets and their validity for stake placements.
 
-* **Tool Access Manager**
+<img src="/assets/VRch/Stake_place.gif" style="width: 100%; height: auto;">
+
+* Hammer Tool
+    * Tool for hammering stakes into the ground.
+    * Implemented collision with a cooldown system to create a more realistic experience of hammering multiple strikes to fix a stake.
+
+* String Tool
+    * Tool for tying stakes together, visibly creating the perimeter for the grid.
+    * Implemented instancing and UE5's cable components to seamlessly generate string line and attachment points on Stakes.
+
+**Tool Access Manager**
 
 ![TAM_TDD](/assets/VRch/NewToolAccessSystemTDD.png)
 
-* **Set grid (Level Scripting)**
-    * Scripted the 
+**Set grid (Level Scripting)**
+* Scripted the 
 
-* **Set Grid Mini Tutorial (Level Scripting)**
+**Set Grid Mini Tutorial (Level Scripting)**
 
 
 
