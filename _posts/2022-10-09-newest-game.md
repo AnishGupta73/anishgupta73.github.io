@@ -3,7 +3,7 @@ layout: post
 title:  "VRChaeology"
 summary: "Tools and Gameplay Programmer"
 date:   2022-10-09 15:39:40
-preview: /assets/VRch/MainMenuSquare300.png
+preview: /assets/VRch/VRch_Logo_square.png
 ---
 
 ![VRCH_Banner](/assets/VRch/vrch_banner.png)
