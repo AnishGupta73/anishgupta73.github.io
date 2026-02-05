@@ -20,19 +20,20 @@ Unreal Engine 5 for PC VR Platforms
 
 **Team Structure**
 
-13 Members:
+14 Members:
+* 1 Associate Producer
 * 1 Project Manager
 * 4 Programmers
 * 1 Designer
 * 5 Artists
-* 1 Sound Design
+* 1 Sound Designer
 * 1 Music Composer
 
 ---
 
 **Contributions**
 
-**Archaeology Tools (Gameplay features)**
+**Gameplay features: Archaeology Tools**
 
 * Tape Measurer System
     * Performant Tool for measuring distance and ground level to perform tasks such as setting a 1m by 1m grid

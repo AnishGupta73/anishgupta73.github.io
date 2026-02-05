@@ -10,24 +10,31 @@ preview: /assets/RC/Itch_Logo_BG_square_300.png
 
 **Overview**
 
-VRchaeology revolutionizes the study of archaeology by bringing archaeological field techniques into the classroom through Virtual Reality (VR). This innovative approach allows students to delve into the world of archaeology and unearth the past right from their desks. It serves as a pioneering example of how VR can transform the education of field sciences, making hands-on learning accessible to everyone.
+Resilient Community is a Work-in-Progress board game-to-PC/mobile port. The board game was originally developed by Prof. Eun Cha & Abby Beck to teach students electric infrastructure decision-making skills. The Stu/dio is bringing access to the educational experience to digital platforms, where the game will increase its reach and access to current and future generations of students.
 
-The project was developed under The Stu/dio, a student led work-for-hire game development studio affiliated with the University of Illinois at Urbana-Champaign. The project is sponsored and owned by Dr. Laura Shackelford.
+The project was developed under The Stu/dio, a student led work-for-hire game development studio affiliated with the University of Illinois at Urbana-Champaign. Sponsors - Eun Jeong Cha, Luc Paquette, Eric Shaffer | UIUC, Computer Science and Civil & Environmental Engineering.
 
 **Platform**
 
-Unreal Engine 5 for PC VR Platforms
+Godot 4 for HTML5 and Web Platforms
 
 **Team Structure**
 
-13 Members:
+9 Members:
+* 1 Associate Producer
 * 1 Project Manager
-* 4 Programmers
+* 3 Programmers
 * 1 Designer
-* 5 Artists
-* 1 Sound Design
+* 1 Artists
+* 1 Sound Designer
 * 1 Music Composer
 
 ---
 
 **Contributions**
+
+**QA Feedback and Updates**
+
+**Data Collection Pipeline**
+
+**Web Hosting**
