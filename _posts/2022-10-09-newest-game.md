@@ -13,6 +13,7 @@ preview: /assets/VRch/VRch_Logo_square.png
 VRchaeology revolutionizes the study of archaeology by bringing archaeological field techniques into the classroom through Virtual Reality (VR). This innovative approach allows students to delve into the world of archaeology and unearth the past right from their desks. It serves as a pioneering example of how VR can transform the education of field sciences, making hands-on learning accessible to everyone.
 
 The project was developed under The Stu/dio, a student led work-for-hire game development studio affiliated with the University of Illinois at Urbana-Champaign. The project is sponsored and owned by Dr. Laura Shackelford.
+(Publicly available links will not be provided as per requests of Sponsors)
 
 **Platform**
 
