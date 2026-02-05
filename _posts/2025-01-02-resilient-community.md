@@ -2,7 +2,7 @@
 layout: post
 title:  "Resilient Community"
 summary: "Programmer"
-date:   2025-11-01 15:39:40
+date:   2025-11-01 00:00:00
 preview: /assets/RC/Itch_Logo_BG_square_300.png
 ---
 
