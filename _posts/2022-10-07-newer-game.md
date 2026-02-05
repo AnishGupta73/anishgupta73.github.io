@@ -3,7 +3,7 @@ layout: post
 title:  "Resilient Community"
 summary: "Programmer"
 date:   2022-10-07 15:39:40
-preview: /assets/RC/Itch_Logo.png
+preview: /assets/RC/Itch_Logo_BG_square_300.png
 ---
 
 ![RC_Banner](/assets/RC/HDBanner_scaled.png)
