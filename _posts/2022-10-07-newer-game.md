@@ -41,6 +41,21 @@ Godot 4 for HTML5 and Web Platforms
 
 * Established consistent game terminology through Collaboration with Sponsors to eliminate ambiguity in the game and codebase.
 
+Before:
+
+<figure>
+    <img src="/assets/RC/RC_turn_count_OLD.gif" style="width: 100%; height: auto;">
+    <figcaption> Turn Count was at 0. "Stones" didn't make sense in the context of the game and is not used dialogue</figcaption>
+</figure>
+
+After:
+
+<img src="/assets/RC/RC_turn_count_shorter.gif" style="width: 100%; height: auto;">
+<figure>
+    <img src="/assets/RC/RC_turn_count_shorter.gif" style="width: 100%; height: auto;">
+    <figcaption> Turn Count is at 0. "Retrofits" makes more sense in the context of the game as it is used in dialogue</figcaption>
+</figure>
+
 **Data Collection Pipeline**
 
 * Identified a critical data collection failure point in the callback process of HTTP GET requests, presented resolutions to sponsors, and expedited fix implementations.
