@@ -2,7 +2,7 @@
 layout: post
 title:  "VRChaeology"
 summary: "Programmer"
-date:   2025-01-01 00:00:00
+date:   2025-01-02 00:00:00
 preview: /assets/VRch/VRch_Logo_square.png
 ---
 
