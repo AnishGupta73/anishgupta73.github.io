@@ -35,11 +35,20 @@ Godot 4 for HTML5 and Web Platforms
 
 **QA Feedback and Updates**
 
-* Bug Recution and Gameplay Improvements:
-    * Improved the Turn count system by clearly defining 1 system across the main game loop. This removed bugs that would trigger turn-specific cutscenes on the wrong turns.
-    * Renamed neighborhoods to match colors, as opposed to an arbitrary "income level" to increase player understanding og in-game locations and dialogue.
-    * Collaborated with Sponsors to determine specific in-game terminology to remove term ambiguity across the game and code base.
+* Resolved turn progression bugs by standardizing the turn count system across the main game loop which removed incorrect cutscene/dialogue triggers.
+
+* Defined a color-based neighborhood naming convention, that replaced an arbitrary income-level descriptions that are neither obvious nor explained, to enhanced player experience.
+
+* Established consistent game terminology through Collaboration with Sponsors to eliminate ambiguity in the game and codebase.
 
 **Data Collection Pipeline**
 
-**Web Hosting**
+* Identified a critical data collection failure point in the callback process of HTTP GET requests, presented resolutions to sponsors, and expedited fix implementations.
+
+* Redesigned QA pipeline architecture by removing redundant HTTP POST requests, combining them into 1 system that delegates tasks based on certain parameters.
+
+**Iterative Builds and Deployment**
+
+* Established iterative build deployment process for sponsors to track feature implementations and bug fixes efficiently across development cycles.
+
+* Deployed game builds via Itch.io (development builds) and Amazon Web Services (shipment builds), to streamline distribution by providing sponsors with a direct access link that removed installation barriers for students.
