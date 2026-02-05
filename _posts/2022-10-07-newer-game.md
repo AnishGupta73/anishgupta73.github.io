@@ -35,31 +35,40 @@ Godot 4 for HTML5 and Web Platforms
 
 **QA Feedback and Updates**
 * Resolved turn progression bugs by standardizing the turn count system across the main game loop which removed incorrect cutscene/dialogue triggers.
-* Defined a color-based neighborhood naming convention, that replaced an arbitrary income-level descriptions that are neither obvious nor explained, to enhanced player experience.
 * Established consistent game terminology through Collaboration with Sponsors to eliminate ambiguity in the game and codebase.
+    Before:
 
-Before:
+    <figure>
+        <img src="/assets/RC/RC_stats_OLD.png" style="width: 100%; height: auto;">
+        <figcaption> Turn Counter was at 0. "Stones" didn't make sense in the context of the game and is not used dialogue.</figcaption>
+    </figure>
 
-<figure>
-    <img src="/assets/RC/RC_turn_count_OLD.gif" style="width: 100%; height: auto;">
-    <figcaption> Turn Counter was at 0. "Stones" didn't make sense in the context of the game and is not used dialogue.</figcaption>
-</figure>
+    After:
 
-After:
+    <figure>
+        <img src="/assets/RC/RC_stats_NEW.png" style="width: 100%; height: auto;">
+        <figcaption> Turn Counter starts at 1. "Retrofits" makes more sense in the context of the game as it is used in dialogue.</figcaption>
+    </figure>
 
-<figure>
-    <img src="/assets/RC/RC_turn_count_shorter.gif" style="width: 100%; height: auto;">
-    <figcaption> Turn Counter starts at 1. "Retrofits" makes more sense in the context of the game as it is used in dialogue.</figcaption>
-</figure>
+* Defined a color-based neighborhood naming convention, that replaced an arbitrary income-level descriptions that are neither obvious nor explained, to enhanced player experience.
+    Before:
+
+    <figure>
+        <img src="/assets/RC/RC_renamed_neighborhood_OLD.gif" style="width: 100%; height: auto;">
+        <figcaption> Non-functioning neighborhood was named "MultiFamilyHousing" which doesn't indicate exactly which neighborhood needs help.</figcaption>
+    </figure>
+
+    After:
+
+    <figure>
+        <img src="/assets/RC/RC_renamed_neighborhood.gif" style="width: 100%; height: auto;">
+        <figcaption> Non-functioning neighborhood is now named "Yellow" which clearly indicates which neighborhood needs help.</figcaption>
+    </figure>
 
 **Data Collection Pipeline**
-
 * Identified a critical data collection failure point in the callback process of HTTP GET requests, presented resolutions to sponsors, and expedited fix implementations.
-
 * Redesigned QA pipeline architecture by removing redundant HTTP POST requests, combining them into 1 system that delegates tasks based on certain parameters.
 
 **Iterative Builds and Deployment**
-
 * Established iterative build deployment process for sponsors to track feature implementations and bug fixes efficiently across development cycles.
-
 * Deployed game builds via Itch.io (development builds) and Amazon Web Services (shipment builds), to streamline distribution by providing sponsors with a direct access link that removed installation barriers for students.
