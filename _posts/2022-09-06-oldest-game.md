@@ -33,7 +33,7 @@ preview: /assets/postpreview.png
 .display canvas {
     width: 100%;
     max-width: 100%;
-    height: 800px;
+    height: 600px;
     border: 1px solid #ccc;
 }
 </style>
