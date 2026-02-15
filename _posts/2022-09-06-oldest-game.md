@@ -6,6 +6,20 @@ date:   2022-09-06 15:39:40
 preview: /assets/postpreview.png
 ---
 
+**About This Project**
+
+The goal of this project is to create a procedurally generated terrain for a mountains in video games.
+
+This project uses a simple fracture-based fractal to make a gird of specified size look like rough terrain. 
+
+* Implemented using WebGL2
+* Fault-based terrain generation algorithm
+* Real-time 3D rendering with lighting
+
+Adjust the Grid Size and Fault counts.
+
+Press the Button to generate terrain!
+
 <form class="controls" action="javascript:void(0);">
     <label>Grid size: <input id="gridsize" type="number" value="50"/></label>
     <label>Faults: <input id="faults" type="number" value="50"/></label>
@@ -37,12 +51,3 @@ preview: /assets/postpreview.png
     border: 1px solid #ccc;
 }
 </style>
-
-## About This Project
-
-This terrain generator uses a fault algorithm to create realistic-looking terrain. Adjust the grid size and number of faults, then click "Regenerate Terrain" to see different variations.
-
-**Technical Details:**
-- Implemented using WebGL2
-- Fault-based terrain generation algorithm
-- Real-time 3D rendering with lighting
