@@ -1,6 +1,6 @@
 ---
 layout: webgl
-title:  "Terrain Generator"
+title:  "WebGL Terrain Generator"
 summary: "WebGL Fault Algorithm Terrain"
 date:   2022-09-06 15:39:40
 preview: /assets/postpreview.png
@@ -33,7 +33,7 @@ preview: /assets/postpreview.png
 .display canvas {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 800px;
     border: 1px solid #ccc;
 }
 </style>
