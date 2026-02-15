@@ -247,18 +247,19 @@ function tick(milliseconds) {
 }
 
 function fillScreen() {
-    const canvas = document.querySelector('.terrain-canvas');
-    if (!canvas || !window.gl) return;
-
-    const parent = canvas.parentElement;
-    const width = parent.clientWidth || 300;
-    const height = parent.clientHeight || 300;
-
-    canvas.width = width;
-    canvas.height = height;
-
-    gl.viewport(0, 0, canvas.width, canvas.height);
-    window.p = m4perspNegZ(0.1, 10, 1, canvas.width, canvas.height);
+    let canvas = document.querySelector('canvas')
+    document.body.style.margin = '0'
+    canvas.style.width = '100%'
+    canvas.style.height = '100%'
+    canvas.width = canvas.clientWidth
+    canvas.height = canvas.clientHeight
+    canvas.style.width = ''
+    canvas.style.height = ''
+    gl.viewport(0,0, canvas.width, canvas.height)
+    // TO DO: compute a new projection matrix based on the width/height aspect ratio
+    if (window.gl) {
+        window.p = m4perspNegZ(0.1, 10, 1, canvas.width, canvas.height)
+    }
 }
 
 function generateGrid(size) {
@@ -266,32 +267,70 @@ function generateGrid(size) {
 }
 
 /** Compile, link, set up geometry */
-
 window.addEventListener('load', async (event) => {
-    const canvas = document.querySelector('.terrain-canvas');
-    if (!canvas) return; // this JS file might exist on other pages
+    window.gl = document.querySelector('canvas').getContext('webgl2',
+        // optional configuration object: see https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext
+        {antialias: false, depth:true, preserveDrawingBuffer:true}
+    )
+    let vs = `#version 300 es
 
-    window.gl = canvas.getContext('webgl2',
-        { antialias: false, depth: true, preserveDrawingBuffer: true }
-    );
+    layout(location=0) in vec4 position;
+    layout(location=1) in vec3 normals;
+    
+    uniform mat4 mv;
+    uniform mat4 p;
+    
+    uniform vec3 normal;
+    
+    out vec3 vnormal;
+    
+    void main() {
+        gl_Position = p * mv * position;
+        vnormal = normals;
+    }
+    `;
 
-    const vs = await fetch('/assets/MPTerrain/vs.glsl').then(res => res.text());
-    const fs = await fetch('/assets/MPTerrain/fs.glsl').then(res => res.text());
-    window.program = compileShader(vs, fs);
+    let fs = `#version 300 es
+    precision highp float;
+    
+    uniform vec4 color;
+    
+    out vec4 fragColor;
+    
+    uniform vec3 lightdir;
+    uniform vec3 lightcolor;
+    uniform vec3 halfway;
+    
+    in vec3 vnormal;
+    
+    void main() {
+        vec3 n = normalize(vnormal);
+        float lambert = max(dot(n, lightdir), 0.0);
+        float blinn = pow(max(dot(n, halfway), 0.0), 400.0);
+    
+        fragColor = vec4(
+            color.rgb*(lightcolor*lambert)
+            +
+            (lightcolor*blinn)*1.0
+        , color.a);
+    }
+    `;
+    
+    window.program = compileShader(vs,fs)
+    gl.enable(gl.DEPTH_TEST)
+    gl.enable(gl.BLEND)
+    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA)
+    
 
-    gl.enable(gl.DEPTH_TEST);
-    gl.enable(gl.BLEND);
-    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
-
-    fillScreen();
-    window.addEventListener('resize', fillScreen);
+    fillScreen()
+    window.addEventListener('resize', fillScreen)
 
     document.querySelector('#submit').addEventListener('click', event => {
-        const gridsize = Number(document.querySelector('#gridsize').value) || 2;
-        const faults = Number(document.querySelector('#faults').value) || 0;
+        const gridsize = Number(document.querySelector('#gridsize').value) || 2
+        const faults = Number(document.querySelector('#faults').value) || 0
+        // TO DO: generate a new gridsize-by-gridsize grid here, then apply faults to it
+        window.geom = setupGeomery(gridsize, faults)
 
-        window.geom = setupGeomery(gridsize, faults);
-
-        requestAnimationFrame(tick);
-    });
-});
+        requestAnimationFrame(tick)
+    })
+})
