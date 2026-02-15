@@ -11,13 +11,11 @@ preview: /assets/postpreview.png
 Put down info here, either in bullets or paragraphs.
 
 
-<script src="/assets/MPTerrain/terrain.js"></script>
-<script src="/assets/MPTerrain/math.js"></script>
 
 <form class="controls" action="javascript:void(0);">
     <label>Grid size: <input id="gridsize" type="number" value="50"/></label>
     <label>Faults: <input id="faults" type="number" value="50"/></label>
-    <input id="submit" type="submit" value="Regenerate Terrain"/>
+    <input id="submit" type="submit" value="Generate Terrain"/>
 </form>
 <div class="display">
     <canvas width="300" height="300"></canvas>
