@@ -1,7 +1,7 @@
 ---
 layout: webgl
 title:  "WebGL Terrain Generator"
-summary: "Creator"
+summary: "Programmer"
 date:   2022-09-06 15:39:40
 preview: /assets/WebGL/webGL_logo_small.png
 ---
