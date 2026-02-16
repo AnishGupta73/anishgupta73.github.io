@@ -1,9 +1,9 @@
 ---
 layout: webgl
 title:  "WebGL Terrain Generator"
-summary: "WebGL Fault Algorithm Terrain"
+summary: "Creator"
 date:   2022-09-06 15:39:40
-preview: /assets/postpreview.png
+preview: /assets/WebGL/webGL_logo_small.png
 ---
 
 **About This Project**
