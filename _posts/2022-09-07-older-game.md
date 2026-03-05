@@ -3,7 +3,7 @@ layout: post
 title:  "Dimension Swapping Platformer"
 summary: "Creator/Designer/Programmer"
 date:   2022-09-07 15:39:40
-preview: /assets/DimSwapGame/index.apple-touch-icon.png
+preview: /assets/DimSwapGame/index.icon2.png
 ---
 
 This game, temporarily named "Dimension Swapping Platformer" is a 2D puzzle-platformer built in Godot 4 where the player navigates between two parallel dimensions, each containing different platforms. Shifting between worlds by pressing LSHIFT or Right Click is the core mechanic: platforms only exist in one dimension, so progression requires reading the environment and swapping
@@ -22,6 +22,9 @@ Quick Controls Tutorial:
 
 * Swap dimensions with LSHIFT, Z key, or Right Click with mouse
 
+* Coins act as checkpoints
+
+* The goal in the level is to reach the fruit (You'll have to explore and find where it is)
 
 ## Technical Highlights
 
