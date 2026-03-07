@@ -16,14 +16,10 @@ This game, temporarily named "Dimension Swapping Platformer" is a 2D puzzle-plat
   allowfullscreen>
 </iframe>
 
-Quick Controls Tutorial:
-
+Quick Tutorial:
 * Move with WASD keys or arrow keys
-
 * Swap dimensions with LSHIFT, Z key, or Right Click with mouse
-
 * Coins act as checkpoints
-
 * The goal in the level is to reach the fruit (You'll have to explore and find where it is)
 
 ## Technical Highlights
@@ -55,3 +51,7 @@ is both grounded and fully stopped before playing idle and starting the level-en
 **Checkpoint system with duck-typing** 
 Checkpoints detect valid bodies using `has_method("respawn")` rather than type checks, keeping them decoupled from the player class. The `AnimatedSprite2D`
 activates on first contact and the updated spawn position persists until the level is restarted.
+
+
+Credits:
+All art assets were sourced from ![this website](https://brackeysgames.itch.io/brackeys-platformer-bundle). 
